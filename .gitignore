@@ -1,5 +1,5 @@
 *.py[cod]
-
+*.idlk
 # C extensions
 *.so
 
