@@ -13,6 +13,8 @@ Global considerations:
 -Should we be placing First/Last under the initials boxes
 -We use a variety of different sized boxes for checks.  
 -We use a variety of different sized boxes for numbers.
+-Edit form version number to include date then version number in YYYY-MM-DD x.x format.
+
 
 Plate # 006.
 
@@ -132,6 +134,20 @@ Plate # 005.
 -How does screening ID work?
 -When is randomization happening pre baseline info?  If so do we need to recollect DOB, Gender, Age at that point in time?
 -Split Study Site into a checkbox list. Number boxes should be checkboxes where appropriate.
+
+
+
+Pre 0.1 Release Review Two.  ML, 2014-01-08
+
+-Barcodes are cut off for lower letters of Screening Timepoint.
+-Plate 4.  Why is Intervier's Initials prefixed with a 1 while other questions don't have.
+-Plate 5.  Is this screening or baseline?  It is barcoeded as screening but is called baseline info form.  It also is numbered and those numbers lead into the first form in baseline?
+-Plate 7.  There is a stray comma on the left margin between Years Smoked and Avg Cigs per day.
+I would be tempted to make the number of ---- leading to the arrow equal.  Also move everything to the right of the arrows left a bit to fix right margin encroachment.  This can be done by making arrows smaller if necessary.
+Can we make q 20-22 have a hanging indent rather than wrapping numbering.  You can shorter the other text line and move one of the top row languages down to the sencond row to facilitate.
+-Plate 9 Needs its barcode removed.  If it is not going into DB it should not have a barcode. Create some sort of baseline indicator since it will be gone once the barcode is gone.
+-Plate 17.  Spacing between number and checkboxes needs adjusting.
+-Plate 21.  4, Number 4.  Align with others.
 
 
 
