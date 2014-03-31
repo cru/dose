@@ -1,0 +1,159 @@
+Notes:  
+-This set of edits assumes that the barcode number of any given form doesn't change until after they are completed.
+-We need to request source information for Functional Ambulation Status Form, Cardiac Stress Test Form and Step Activity Monitor Form.
+
+After:
+-The edits below are completed.  
+-The Three missing forms are created. 
+-We will re-barcode all forms with a first occurrence numbering priority. 
+
+
+Global considerations:  
+-Do we want a single visit date per timepoint?  ie.  Do we really need visit date on every page?
+-Should we be placing First/Last under the initials boxes
+-We use a variety of different sized boxes for checks.  
+-We use a variety of different sized boxes for numbers.
+-Edit form version number to include date then version number in YYYY-MM-DD x.x format.
+
+
+Plate # 006.
+
+- Is Date next to interviewer initials relevant (1.)
+- Is Study ID necessary (2.)
+
+Plate # 007.
+
+- Checkbox alignment should be improved.
+- Lets increase the spacing between a checkbox and its label.
+
+Plate # 008.
+
+-Year Stopped should be 4 places.  (19. 2x.)
+-Years Smoked should be 2 places.  (19. 2x.)
+-Can we move and/or __ pipes/cigars to one line.
+-Years of formal education < 99 so two boxes (20.)
+-Alignment of Chinese/French Boxes is not in line with English (21. Second instance)
+
+Plate # 009.  
+
+-Perfect.
+
+Plate # 010.
+
+-This has redundant static information and identifiers.  It should not be a barcoded form if truly needed.
+
+Plate # 011 and 013.
+
+-Why is study id recollected (1.)
+-Split Section C into two rows of boxes.
+-A, B. Seconds should be number/decimal boxes not underlines.
+-D fit to one line.
+
+Plate # 012.
+
+-Is study id necessary.
+-Look at numbering of questions.
+-Question 5, 6 tab in second line to match indentation of first.
+-Question 7.  Meters is poorly aligned.
+
+Plate #014-019.
+
+-Study ID second collection relevance?
+-Evaluation date second collection relevance?
+-We do not consistently identify page x/6 in the title on each page of the Berg Balance Scales 6 pages?
+-Some questions boxes are not aligned under the numbers equally.  (3)  Box spacing is inconsistent in some questions.
+-Question text to response spacing is inconsistent.  
+-Question 10 is too close to the bottom of the page. 
+
+Plate # 020.
+
+-Why Study ID again?
+-Evaluation Date?  Is this different than visit date?
+-Evaluation Date and Evaluators Initials are overlapping.
+-Should we be placing First/Last under the initials boxes
+-newtons/kg should be number boxes.  perhaps a decimal confirm with client.
+
+Plate # 021.
+
+-Too much on a single page?  
+-Is there an extra check box?  
+-Try putting parenthesis on same line as title.  
+-Unify line spacing.
+
+Plate # 022.
+
+-Are these checkboxes or number boxes?
+-If number.  Make standard size.
+-If checkbox make smaller.
+-Bold header categories.  
+-List options (perhaps two columns of options?)
+
+Plate # 023.
+
+-We have an extra version date.
+
+Plate # 024.
+-Fix Question #7.  
+-Horizontally orient Limb Ataxia options.  Shift yes/no to below and align.
+
+Plate # 025.
+-Fix Margins.
+
+Plate # 026.
+-Get rid of table.
+-Split after Motor Subtotal Score onto a second page.
+
+Plate # 027.  This will probably be renumbered to Plate 028.
+-Does the first half of PHQ 9 need a table?
+-Bold the headings.
+-Q 5 doesn't need to be bold?
+
+Plate # 028.  This will probably be renumbered to Plate 029.
+
+-The header intro doesn't need an answer placeholder.  
+-A, B and C should be number placeholders.
+-Q 2 has some unjustified boldification.
+
+Plate # 001.
+
+-Do we need interview date?
+-Screening ID.  Is this equal to study ID?
+-Why are we collecting date of birth and gender repeatedly across timepoints?
+
+Plate # 002/003.
+
+-lets try and be consistent in question numbering across forms.
+-Move inclusion/exclusion yes/no labels to the column heads.
+-Replace number boxes with checkboxes for inclusion and exclusion plates.
+
+Plate # 004.  
+-This form needs to be created.
+-Cardiac Stress Test Form need source material.
+
+Plate # 005.  
+-How does screening ID work?
+-When is randomization happening pre baseline info?  If so do we need to recollect DOB, Gender, Age at that point in time?
+-Split Study Site into a checkbox list. Number boxes should be checkboxes where appropriate.
+
+
+
+Pre 0.1 Release Review Two.  ML, 2014-01-08
+
+-Barcodes are cut off for lower letters of Screening Timepoint.
+-Plate 4.  Why is Intervier's Initials prefixed with a 1 while other questions don't have.
+-Plate 5.  Is this screening or baseline?  It is barcoeded as screening but is called baseline info form.  It also is numbered and those numbers lead into the first form in baseline?
+-Plate 7.  There is a stray comma on the left margin between Years Smoked and Avg Cigs per day.
+I would be tempted to make the number of ---- leading to the arrow equal.  Also move everything to the right of the arrows left a bit to fix right margin encroachment.  This can be done by making arrows smaller if necessary.
+Can we make q 20-22 have a hanging indent rather than wrapping numbering.  You can shorter the other text line and move one of the top row languages down to the sencond row to facilitate.
+-Plate 9 Needs its barcode removed.  If it is not going into DB it should not have a barcode. Create some sort of baseline indicator since it will be gone once the barcode is gone.
+-Plate 17.  Spacing between number and checkboxes needs adjusting.
+-Plate 21.  4, Number 4.  Align with others.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+
+**MAKE AN SOP on Barcoding iDataFax projects
+Study label=CRU-STUDY NAME-
+Plate Label=Plate #x
+Visti label=Visit Name (i.e baseline)
+
+**SOP Not building a database of CRFs until we have a 1.0 version of CRFs. We ONLY build datafax CRFs based on whole number CRFs.
+
+Change Version format at bottom right corner— “Version: 0.02”
+
+Plate 007—Arrows/alignment 
+
+6 minute walk evaluation: Some values are incorrect
+
+Plate 23: NIHS—fix box alignment and bolding
+
+          
